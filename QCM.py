@@ -15,10 +15,7 @@ st.set_page_config(
 # --- Fonctions Utilitaires ---
 
 def generate_qcm_with_gemini(fragment, gemini_model):
-    """
-    Appelle l'API Google Gemini pour générer un QCM à partir d'un fragment de texte.
-    Retourne un dictionnaire structuré ou None en cas d'échec.
-    """
+
     prompt = f"""
     En te basant sur le fragment de texte suivant, crée un Questionnaire à Choix Multiples (QCM) complexe et pertinent.
 
